@@ -1,0 +1,76 @@
+Neon start
+----------
+
+Development d'un starter kit pour neo-OSS
+
+Exigences fonctionnelle
+-----------------------
+
+1.Authentification
+------------------
+
+Il s'agit d'offire la possibilite de connexion des users par 4 moyens:
+1. Avec l'email et le mdp
+2. Avec Facebook
+3. Avec google
+4. Avec LinkedIn
+
+et sans oublier, evidamment la possibilite de se deconnecter
+
+2.Gestion des utilisateur
+-------------------------
+
+Il s'agit de trois cas principale:
+1. La gestion du profil utilisateur:
+	Offrir la possibilite de modifier, ajouter les infos sur le compte utilisateur et meme la suppression du compte.
+2. Les operations Rest sur les utilisateurs:
+	On veut, par des methods des classes dediee arriver a modifier, ajouter, voir les utilisateurs enregistrer dans la bd.
+3. La gestion des roles
+	On veut une methode SetRole() qui permettrait de donner une role a un utilisateur.
+
+Pourquoi Neon OSS
+-----------------
+
+Speed avoir compris l'importance de PostgresSQL, puis bien sur l'importance de PostGresSQL dans le cloud, Il est important de citer l'apport
+de Neon OSS
+
+	Extant donne que le cloud est couteux, mais alors encore Tres couteux quand il est mal utiliser, la necessity de l'utilisation economique
+des ressources materiel (puissance de calcul) est de rigeur. Quand il s'agit de base de donnees dans le cloud, Neon OSS est l'outils qu'il faut,
+nous allons expliquer pourquoi.
+	Pour tous systeme de gestion... (sgbd) informatique, l'utilisation des ressources ne se limite pas au stockage, cela concerne egalement
+la puissance de calcul. La puissance de calcul est utiliser pour resoudre les requettes, transactions,.. Les donnees reste stocker l'espace de
+stockage dedie. Cependant pour tout les services cloud, tous ressources utiliser est facturer.
+	Veuillez noter qu'il exite des applications qui necessite une gestion des quantites des donnees critique
+
+//citer les cas d'utilisation de neon-oss.
+
+Ainsi ces systeme, en utilisant le cloud peuvent avoir besoin d'une gestion optimisee des ressources. Les requettes, transaction,... sur
+les donnees demanderons des ressources supplementaire qui seront facturer.
+
+	Neon existe pour resoudre ce probleme. Neon offre une archiotecture qui separe le stockage des donnees et le calcul. Il est egalement une base de
+donnee sans serveur. Contrairement au ...
+
+	cette aproche permet:
+-possibilite d'acceder aux donner meme en cas de panne de calcul
+-couts de stockage reduites. // explique pourquoi
+-possiblites d'ajouter la puissance de calcul selon les besoins
+-la liste continue
+
+
+Les stacks du future starter-kit
+
+-php,react,tailwind;
+-php,tailwind;
+-laravel,react,tailwindcss;
+-symphony,react,tailwindcss;
+-php,vuejs,tailwindcss;
+-laravel,vuejs,tailwind;
+-symphony,vue.js,tailwind;
+
+-nod,react,tailwind;
+-express,react,tailwind;
+node,vues,tailwind;
+express,vue.js,tailwind;
+node,angular,tailwind;
+
+express,angular,tailwind;
